@@ -43,5 +43,5 @@ if __name__ == '__main__':
     iDir = os.path.abspath(os.path.dirname(__file__))
     tkinter.messagebox.showinfo('npy2mat.py','処理データが存在するフォルダを選択してください')
     dirname = tkinter.filedialog.askdirectory(initialdir = iDir)
-    npy2mat(dirname) # matファイルに変換
+    agilent_npy2mat(dirname) # matファイルに変換
     tkinter.messagebox.showinfo('npy2mat.py', '変換しました')
